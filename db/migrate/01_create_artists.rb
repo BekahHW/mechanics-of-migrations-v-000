@@ -1,12 +1,12 @@
 class CreateArtists < ActiveRecord::Migration
-  # def up
-  # end
+  def up
+  end
  
-  # def down
-  # end
+  def down
+  end
   
-  # def change
-  # end
+  def change
+  end
   
   connection = ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
